@@ -55,7 +55,7 @@ The app uses command-line flags to execute commands. Here’s how to use it:
 - **Edit a todo**
 
   ```bash
-  ./go-todo-cli -edit <index:new_title>
+  ./go-todo-cli -edit "<index>:new_title"
   ```
 
 - **Toggle a todo as completed or not completed**
@@ -87,19 +87,19 @@ The app uses command-line flags to execute commands. Here’s how to use it:
 3. Edit a todo (assuming the index of "Buy groceries" is 0):
 
    ```bash
-   ./go-todo-cli -edit "0:Buy groceries and cook dinner"
+   ./go-todo-cli -edit "<index>:Buy groceries and cook dinner"
    ```
 
 4. Toggle the completion status of the todo at index 0:
 
    ```bash
-   ./go-todo-cli -toggle 0
+   ./go-todo-cli -toggle <index>
    ```
 
 5. Delete a todo:
 
    ```bash
-   ./go-todo-cli -del 0
+   ./go-todo-cli -del <index>
    ```
 
 ## Contributing
