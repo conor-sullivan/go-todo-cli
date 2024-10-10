@@ -1,8 +1,8 @@
-# Todo App
+# Go Todo App for cli
 
 ## Description
 
-Todo App is a simple command-line application written in Go that allows you to manage your tasks effectively. With this app, you can add, delete, edit, toggle, and list your todos right from your terminal.
+Go Todo App for cli is a simple command-line application written in Go that allows you to manage your tasks effectively. With this app, you can add, delete, edit, toggle, and list your todos right from your terminal.
 
 ## Features
 
