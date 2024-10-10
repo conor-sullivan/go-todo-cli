@@ -87,19 +87,19 @@ The app uses command-line flags to execute commands. Here’s how to use it:
 3. Edit a todo (assuming the index of "Buy groceries" is 0):
 
    ```bash
-   ./go-todo-cli -edit "<index>:Buy groceries and cook dinner"
+   ./go-todo-cli -edit "0:Buy groceries and cook dinner"
    ```
 
-4. Toggle the completion status of the todo at index 0:
+4. Toggle the completion status of the todo with the index of 0:
 
    ```bash
-   ./go-todo-cli -toggle <index>
+   ./go-todo-cli -toggle 0
    ```
 
-5. Delete a todo:
+5. Delete a todo with an index of 0:
 
    ```bash
-   ./go-todo-cli -del <index>
+   ./go-todo-cli -del 0
    ```
 
 ## Contributing
